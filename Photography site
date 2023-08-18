@@ -1,0 +1,3 @@
+creating this photography website will require working with HTML5 and CSS3. A responsive one-page photography website is the plan. 
+
+Include the brand name, logo, and a succinct site description at the top of the landing page. Users can access the images portion of a gallery and slide to view the subsequent photographs by creating a gallery with a view button. You can maintain many viewing configurations, such as a grid, list, etc. Choose your preferred colour scheme, font style, and image size before adding the page's margin and padding. You can utilize flexbox and media queries to increase the responsiveness quotient.
