@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Store</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            display: flex;
+        }
+
+        .product-image {
+            flex: 1;
+            margin-right: 20px;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-details {
+            flex: 2;
+        }
+
+        .product-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 18px;
+            color: #ff6600;
+            margin-bottom: 10px;
+        }
+
+        .product-description {
+            line-height: 1.5;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>Music Store</h1>
+    <p>Welcome to our online music store.</p>
+</div>
+
+<div class="container">
+    <div class="product">
+        <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" alt="Album Cover">
+        </div>
+        <div class="product-details">
+            <h2 class="product-title">Album Title</h2>
+            <p class="product-price">$12.99</p>
+            <p class="product-description">This is a description of the album. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="product-image">
+            <img src="https://via.placeholder.com/200x200" alt="Album Cover">
+        </div>
+        <div class="product-details">
+            <h2 class="product-title">Another Album</h2>
+            <p class="product-price">$14.99</p>
+            <p class="product-description">Another description of the album. Nulla facilisi.</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>&copy; 2023 MusicStore.com. All rights reserved.</p>
+</div>
+
+</body>
+</html>
