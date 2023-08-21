@@ -3,38 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple News Website</title>
+    <title>Netflix Clone</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>My News Website</h1>
+        <div class="logo">
+            <img src="netflix_logo.png" alt="Netflix Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
     </header>
     
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">World</a></li>
-            <li><a href="#">Politics</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">Technology</a></li>
-        </ul>
-    </nav>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Netflix</h1>
+            <p>Watch unlimited movies and TV shows.</p>
+            <button class="cta-button">Sign Up Now</button>
+        </div>
+    </section>
     
-    <main>
-        <section class="article">
-            <h2>Breaking News</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-        </section>
-        
-        <section class="article">
-            <h2>World News</h2>
-            <p>Nulla facilisi. Mauris ac leo eu turpis tincidunt...</p>
-        </section>
-    </main>
+    <!-- Featured Content Section -->
+    <section class="featured-content">
+        <h2>Featured Content</h2>
+        <!-- You can add featured movies or TV shows here -->
+    </section>
     
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2023 My News Website</p>
+        <p>&copy; 2023 Netflix Clone</p>
     </footer>
     
     <script src="script.js"></script>

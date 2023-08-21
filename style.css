@@ -7,25 +7,24 @@ body, ul, li {
 
 /* Style the header */
 header {
-    background-color: #333;
+    background-color: #111;
     color: white;
-    text-align: center;
-    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
-/* Style the navigation menu */
-nav {
-    background-color: #444;
+.logo img {
+    width: 100px;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
-    padding: 10px 0;
 }
 
 nav li {
-    margin: 0 15px;
+    margin-right: 20px;
 }
 
 nav a {
@@ -34,20 +33,39 @@ nav a {
     font-weight: bold;
 }
 
-/* Style the main content area */
-main {
+/* Style the hero section */
+.hero {
+    background-image: url('hero_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+}
+
+.cta-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Style the featured content section */
+.featured-content {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
-.article {
-    margin-bottom: 20px;
-}
-
 /* Style the footer */
 footer {
-    background-color: #333;
+    background-color: #111;
     color: white;
     text-align: center;
     padding: 10px 0;
